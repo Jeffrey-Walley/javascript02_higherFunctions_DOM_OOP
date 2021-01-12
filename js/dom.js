@@ -133,5 +133,5 @@ let container = document.querySelector('header .container');
 let h1 = document.querySelector('header h1');
 
 container.insertBefore(newDiv, h1);
-newDiv.style.fontSize = '30px';
+newDiv.style.fontSize = '30px'; // makes font of newDiv 30px
 console.log(newDiv);
